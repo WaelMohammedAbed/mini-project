@@ -1,0 +1,97 @@
+<html>
+  
+<head>
+ <title>Alnoor</title>
+<link rel="stylesheet"  href="assets/css/header_footer.css">
+
+ <script type="text/javascript" src="assets/js/validation.js"></script>
+</head>
+<body>
+
+<div class="topnav">
+ <a  href="home_page.html">Home</a>
+ <a  href="gallery.html">Gallery</a>
+ <a class="active" href="contactus.html">Contactus</a>
+ <a href="calculator.html">Calculator</a>
+</div>
+
+<div class="header">
+ <h1>Al Noor Travel & Tourism Co</h1>
+</div>
+
+<body onload="document.registration.firstName.focus();">
+<div>
+<h1>Registration Form</h1>
+<form name='registration' onSubmit="return formValidation();">
+    <ul>
+        <li>
+            <label for="firstName">First Name:</label>
+            <input type="text" name="firstName" size="29" />
+        </li>
+        <li>
+            <label for="lastName">Last Name:</label>
+            <input type="text" name="lastName" size="29" />
+        </li>
+
+        <li>
+            <label for="passid">Password:</label>
+            <input type="password" name="passid" size="30" />
+        </li>
+
+        
+       
+
+        <li>
+            <label for="country">Country:</label>
+            <select name="country">
+                <option selected="" value="Default">(Please select a country)</option>
+                <option value="AF">Afghanistan</option>
+                <option value="AL">Albania</option>
+                <option value="ALG">Algeria</option>
+                <option value="AND">Andorra</option>
+                <option value="ANG">Angola</option>
+            </select>
+        </li>
+
+      
+
+        <li>
+            <label for="email">Email:</label>
+            <input type="text" name="email" size="34" />
+        </li>
+
+        <li>
+            <label id="gender">Gender:</label>
+            <input type="radio" id="male" name="sex" value="Male" />
+            <span>Male</span>
+            <input type="radio" id="female" name="sex" value="Female" />
+            <span>Female</span>
+        </li>
+
+        <li>
+            <label>Language:</label>
+
+
+                <input type="checkbox"  name="en" value="en" checked />
+                <span>English</span>
+
+
+                <input type="checkbox" name="nonen" value="nonen" />
+                <span>French</span>
+
+        </li>
+
+        <li><input type="submit" name="submit" value="Submit" /></li>
+    </ul>
+</form>
+</body>
+    
+   
+<footer>
+  <div id="Footer1"> © 2017 Al Noor Travel & Tourism Co </div>
+
+
+</footer>
+
+</body>
+</html>
